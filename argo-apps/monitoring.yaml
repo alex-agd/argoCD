@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/Alex-AGD/zabbix-app'
+    repoURL: 'https://github.com/Alex-AGD/monitoring'
     targetRevision: main
     path: ./
   destination:
