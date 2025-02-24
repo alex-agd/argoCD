@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/alex-agd/tasker-infra.git
+    repoURL: https://alex-agd.github.io/tasker-infra/
     targetRevision: HEAD
     path: helm/tasker
     helm:
