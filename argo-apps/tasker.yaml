@@ -11,6 +11,9 @@ spec:
     repoURL: https://github.com/alex-agd/tasker-infra.git
     targetRevision: HEAD
     path: helm/tasker
+    helm:
+      valueFiles:
+        - values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: tasker
